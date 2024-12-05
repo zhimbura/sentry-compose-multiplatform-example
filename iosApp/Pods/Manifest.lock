@@ -1,0 +1,25 @@
+PODS:
+  - MyCocoaPod (1.0):
+    - Sentry (~> 8.38.0)
+  - Sentry (8.38.0):
+    - Sentry/Core (= 8.38.0)
+  - Sentry/Core (8.38.0)
+
+DEPENDENCIES:
+  - MyCocoaPod (from `../ComposeApp`)
+
+SPEC REPOS:
+  trunk:
+    - Sentry
+
+EXTERNAL SOURCES:
+  MyCocoaPod:
+    :path: "../ComposeApp"
+
+SPEC CHECKSUMS:
+  MyCocoaPod: 8f312cbde1ed5d57768b9a7dfda724fef37a4ff6
+  Sentry: 205813e7e758b53df157cedb8c55b31a14300645
+
+PODFILE CHECKSUM: 6bc8fbf741a220ae49f32058df7098af1bde33df
+
+COCOAPODS: 1.16.2
