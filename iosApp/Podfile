@@ -7,4 +7,3 @@ target 'iosApp' do
   pod 'MyCocoaPod', :path => '../ComposeApp'
 
 end
-√
